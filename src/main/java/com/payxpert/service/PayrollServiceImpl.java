@@ -8,7 +8,6 @@ public class PayrollServiceImpl implements PayrollService {
 
     private PayrollDAO payrollDAO;
 
-    // Constructor Injection
     public PayrollServiceImpl(PayrollDAO payrollDAO) {
         this.payrollDAO = payrollDAO;
     }
