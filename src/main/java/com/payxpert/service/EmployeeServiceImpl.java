@@ -10,11 +10,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     public EmployeeServiceImpl() {
         this.employeeDAO = new EmployeeDAOImpl();
     }
-
- 
-
-
-
 	
     public boolean addEmployee(Employee employee) {
         employeeDAO.addEmployee(employee);
@@ -43,11 +38,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return false;
     }
 
-
-
-
 	public double calculateNetSalary(double basicSalary, double allowances, double deductions) {
-		// TODO Auto-generated method stub
+	
 		return 0;
 	}
 }
